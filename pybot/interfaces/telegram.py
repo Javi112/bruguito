@@ -19,10 +19,10 @@ from telegram.ext import (CallbackQueryHandler, CommandHandler, Filters,
                           MessageHandler, Updater)
 
 import pybot.brain as brain
-from pybot.common.action import Action
-from pybot.common.chat import Chat
-from pybot.common.message import Message
-from pybot.common.user import User
+from bruguito.common.action import Action
+from bruguito.common.chat import Chat
+from bruguito.common.message import Message
+from bruguito.common.user import User
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

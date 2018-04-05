@@ -13,7 +13,7 @@ import os
 import re
 import sys
 import json
-from pybot.common.action import Action
+from bruguito.common.action import Action
 
 HELP_FILE = os.path.join(os.path.dirname(__file__), "help.json")
 

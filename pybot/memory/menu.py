@@ -12,7 +12,7 @@ from __future__ import print_function
 import os
 import sys
 import json
-from pybot.common.action import Action
+from bruguito.common.action import Action
 
 MENU_FILE = os.path.join(os.path.dirname(__file__), "menu.json")
 

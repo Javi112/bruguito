@@ -14,7 +14,7 @@ import re
 import sys
 import sqlite3
 import dateparser
-from pybot.common.action import Action
+from bruguito.common.action import Action
 
 DB_FILE = os.path.join(os.path.dirname(__file__), "fireteams.sqlite")
 VALID_ACTIONS = ['new', 'view', 'join', 'leave', 'check']
@@ -592,9 +592,9 @@ def main(argv):
     "This allows to execute the plugin in standalone mode"
     if len(argv) > 1:
 
-        from pybot.common.message import Message
-        from pybot.common.user import User
-        from pybot.common.chat import Chat
+        from bruguito.common.message import Message
+        from bruguito.common.user import User
+        from bruguito.common.chat import Chat
         user = User(1, 'foo', 'bar', 'rael')
         chat = Chat(1, 'Console', 'Console')
         message = Message(1, user, time.strftime,
