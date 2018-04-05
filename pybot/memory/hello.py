@@ -12,11 +12,13 @@ DAYS = ['Buenos días', 'Bon dia', 'Good Morning',
         'Egun on', 'Morning', 'Buon giorno',
         'Bonjour', 'Bos días', 'Buenos días arsa',
         'Hola miarma', 'Goede morgen', 'Bom dia',
-        'Días buenos a ti también', '\U0001f44b']
+        'Días buenos a ti también', '\U0001f44b',
+        'Ohayooooo', 'UwU Bonitos días~~']
 
 NIGHTS = ['Buenas noches', 'Bona nit', 'Good night',
           'Nanit', 'Gute Natch', 'Buonna note',
-          'Bonne nuit', 'Goedenacht', 'Boa noite']
+          'Bonne nuit', 'Goedenacht', 'Boa noite', 
+          'Oyasumiiii~~', 'Duerme bien uwu']
 
 
 def greeting(words):
