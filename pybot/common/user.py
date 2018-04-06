@@ -39,7 +39,6 @@ class User(object):
         self.user_id = int(user_id)
         self.first_name = first_name
         # Optionals
-        self.specie = specie
         self.last_name = last_name
         self.username = username
         self.photo = photo
