@@ -11,7 +11,7 @@ import json
 import sys
 import re
 import time
-from bruguito.common.action import Action
+from pybot.common.action import Action
 
 
 def __psntrophies(psnid):
@@ -123,9 +123,9 @@ def main():
     "This allows to execute the plugin in standalone mode"
     if len(sys.argv) > 1:
 
-        from bruguito.common.message import Message
-        from bruguito.common.user import User
-        from bruguito.common.chat import Chat
+        from pybot.common.message import Message
+        from pybot.common.user import User
+        from pybot.common.chat import Chat
         user = User(1, 'foo', 'bar', 'rael')
         chat = Chat(1, 'Console', 'Console')
         message = Message(1, user, time.strftime,

@@ -22,7 +22,7 @@ if os.path.isdir(os.path.join(PARENT_FOLDER, '.venv')):
 else:
     sys.path.append('../pybot')
 
-from bruguito.interfaces import telegram
+from pybot.interfaces import telegram
 
 CONFIG_FILE = os.path.join(PARENT_FOLDER, 'conf/pybot.conf')
 config = configparser.ConfigParser()
