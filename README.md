@@ -40,11 +40,11 @@ Starting pybot using conf token file. CTRL-C to quit.
 2017-04-17 07:36:39,371 - pybot.brain - INFO - 116133952, Hello world!, 53693428, 2017-04-17 07:36:39,"53693428";
 ```
 ### Requirements
--Python3
-
--Pip
-
--Docker
+* Python3
+* Pip
+* Docker
+* docopt `pip install docopt`
+* python-telegram-bot `pip install python-telegram-bot`
 
 ### Contributing
 
