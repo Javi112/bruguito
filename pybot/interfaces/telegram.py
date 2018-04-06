@@ -90,8 +90,7 @@ def message_from_update(update, media=None):
         user_id=update.message.from_user.id,
         first_name=update.message.from_user.first_name,
         last_name=update.message.from_user.last_name,
-        username=update.message.from_user.username,
-        specie=update.message.from_user.type)
+        username=update.message.from_user.username)
 
     pybot_chat = Chat(
         chat_id=update.message.chat.id,
