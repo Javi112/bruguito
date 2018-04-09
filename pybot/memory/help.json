@@ -1,8 +1,8 @@
 {
-    "help": ["To obtain help about a particular command or funcionality, use '/help *command*'.",
-        "Available helpers:", "- trophies", "- kdd",
+    "help": ["Para obtener la ayuda de un comando, usa '/help *comando*'.",
+        "Ayudas disponibles:", "En construcción, sorrymasen...",
         "",
-        "Issues or requests to @raelga. Code available in [github/raelga/pybot](https://github.com/raelga/pybot)"
+        "Gracias a @raelga por hacer un bot con una arquitectura tan guay y simple. Código disponible en [GitHub](https://github.com/Brugui7/bruguito)"
     ],
     "kdd": [
         "Ejemplos de uso del comando para quedadas:",
