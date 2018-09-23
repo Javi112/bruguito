@@ -47,11 +47,10 @@ def memories():
             memory_name = memory[:pypos]
 
             try:
-                memory = importlib.import_module(
-                    "{}.{}.{}".format(__package__, MEMORY_DIR, memory_name))
+                memory = importlib.import_module("{}.{}.{}".format(__package__, MEMORY_DIR, memory_name))
                 knowledge.append(importlib.reload(memory))
             except Exception as err:
-                logger.warn("%s is confusing, skipping" % (memory_name))
+                logger.warning("%s is confusing, skipping" % (memory_name))
                 logger.error("%s: %s" % (memory_name, err))
 
     return knowledge

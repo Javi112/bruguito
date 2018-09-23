@@ -6,22 +6,23 @@
  Tested on:     Python 3 / OS X 10.11.5
 """
 
+import re
 import sys
 import random
 
 
 def get_cat_gif():
-    "Get a random cat from catapi"
+    """Gets a random cat from catapi"""
 
     cat_apiurl = "http://thecatapi.com/api/images/get?format=src&type=gif"
 
     return cat_apiurl + "&timestamp=" + str(random.random()) + ".gif"
 
 
-def cat(message):
-    "Returns the groups menu for the command shortcut `groups`."
-
-    return get_cat_gif()
+def hear(message):
+    """Checks if the word Cat exists in the string"""
+    if re.match(r'(cat|gato)', message, re.I):
+        return get_cat_gif()
 
 
 def main(argv):
