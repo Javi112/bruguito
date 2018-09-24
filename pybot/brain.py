@@ -35,7 +35,7 @@ def memories():
     if os.path.isdir(memory_path):
         memories = os.listdir(memory_path)
     else:
-        logger.warn("%s missing, i'm useless :(" % memory_path)
+        logger.warning("%s missing, i'm useless :(" % memory_path)
         return knowledge
 
     # For each .py file, get name and load the module

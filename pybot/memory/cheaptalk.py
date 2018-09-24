@@ -45,6 +45,9 @@ def choice(message):
     "Listens to choice command and returns a random choice from words."
     return random.choice(message.text.split(' ')[1:])
 
+def elige(message):
+    return choice(message)
+
 def coin(words):
     "Listens to coin command and returns a random coin face."
     return random.choice(['heads', 'tails'])

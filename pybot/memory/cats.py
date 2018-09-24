@@ -18,12 +18,12 @@ def get_cat_gif():
 
     return cat_apiurl + "&timestamp=" + str(random.random()) + ".gif"
 
-
-def hear(message):
+def cat(message):
     """Checks if the word Cat exists in the string"""
-    if re.match(r'(cat|gato)', message, re.I):
-        return get_cat_gif()
+    return get_cat_gif()
 
+def gato(message):
+    return cat(message)
 
 def main(argv):
     "This allows to execute the plugin in standalone mode"
