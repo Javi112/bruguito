@@ -15,7 +15,7 @@ import random
 import json
 
 
-SENTENCES_FILE = os.path.join(os.path.dirname(__file__), "sentences.json")
+SENTENCES_FILE = os.path.join(os.path.dirname(__file__), "utilities.json")
 
 
 def sentence(message):
