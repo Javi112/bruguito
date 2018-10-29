@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 """
- sentences.py    Returns a random sentence of the storeds in sentences.json
- Author:        Rael Garcia <self@rael.io>
- Date:          06/2016
- Tested on:     Python 3 / OS X 10.11.5
+ sentences.py   Returns a random sentence of the stored in sentences.json
+ Author:        Alejandro Brugarolas
+ Date:          2018/10
 """
 
 from __future__ import print_function
