@@ -1,10 +1,10 @@
 {
   "pkts": {
     "name": "Groups",
-    "text": "Listado de Grupos pkts, pulsa para unirte.",
+    "text": "Listado de Grupos, pulsa para unirte.",
     "callback": "menu_pkts",
     "options": {
-      "Destiny": "https://t.me/pkts_destiny",
+      "Pocket Camp": "https://t.me/pocketcampes",
       "Space Simulation": "https://t.me/pkts_space",
       "Overwatch": "https://t.me/pkts_overwatch",
       "GTA": "https://t.me/joinchat/AzNL9ECAaKh4y3za3egFbw",
